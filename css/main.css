@@ -1,1 +1,128 @@
 @charset "utf-8";
+/* Main Visual */
+#k_mv{
+    width: 100%;
+    height: 480px;
+    padding-top: 153px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    background: url(../img/main/main_visual.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#k_mv>h2{
+    display: inline-block;
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    animation: fontani1 1.5s ease-in forwards;
+}
+@keyframes fontani1{
+    from{
+        left: 7.5vw;
+        font-size: 100px;
+    }
+    to{
+        left: 0px;
+        font-size: 60px;
+    }
+}
+#k_mv>span{
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bold;
+}
+#k_mv>span>strong{
+    position: relative;
+    top: -50px;
+    opacity: 0;
+    animation: fontani2 1.2s linear 1.7s forwards;
+}
+@keyframes fontani2{
+    from{
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+#k_mv>span>em{
+    position: relative;
+    left: 50px;
+    opacity: 0;
+    animation: fontani3 1.2s linear 1.7s forwards;
+}
+@keyframes fontani3{
+    from{
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+#k_mv>p{
+    margin-top: 80px; 
+    font-size: 24px;
+    opacity: 0;
+    animation: fontani4 1.2s linear 1.7s forwards;
+}
+@keyframes fontani4{
+    from{
+    }
+    to{
+        margin-top: 30px;
+        opacity: 1;
+    }
+}
+
+/* Content Service */
+#k_service{
+    background: #e7f3f8
+}
+.k_scon{
+    position: relative;
+    padding: 40px 0px;
+}
+.k_gs{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 200px;
+    border: 2px solid #102e3b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.k_gs>img{
+    position: absolute;
+    top: 1px;
+    left: 15px;
+}
+.k_gs>a{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 65px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.k_ms>:nth-child(n){
+    float: left;
+}
+.k_ms>h2{
+    width: 50%;
+    padding-top: 70px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.k_ps{
+    padding-top: 20px;
+    width: 50%;
+}
+.k_content_box{
+    width: 100%;
+}
+
+
