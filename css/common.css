@@ -138,7 +138,7 @@ img{
     color: #fff;
     transition: 0.4s;
 }
-#k_gnb>li>a:hover, #k_gnb>li>a:focus{
+#k_gnb>li>a.k_gnb_act{
     color: #102e3b;
     background: #fff;
 }
@@ -153,10 +153,10 @@ img{
     background: #fff;
     transition: 0.4s;
 }
-#k_gnb>li:hover>ul, #k_gnb>li:hover:before{
+#k_gnb>li>ul.k_gnb_act, #k_gnb>li.k_gnb_act:before{
     left: 198px;
 }
-#k_gnb>li:hover:before{
+#k_gnb>li.k_gnb_act:before{
     border-right: 2px solid #0c232a;
 }
 .k_gnb_2d>li>a{

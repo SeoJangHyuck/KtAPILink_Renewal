@@ -291,6 +291,13 @@
 #k_situation>ul>li>a{
     display: block;
     height: 100%;
+    background: url(../img/main/shadow.png) no-repeat center 116px;
+    background-size: 150px 50px;
+    transition: 0.4s;
+}
+#k_situation>ul>li>a:hover, #k_situation>ul>li>a:focus{
+    background-position: center 126px;
+    background-size: 120px 40px;
 }
 #k_situation>ul>li>a>img{
     position: relative;
@@ -298,10 +305,10 @@
     transition: 0.4s;
 }
 #k_situation>ul>li>a:hover>img, #k_situation>ul>li>a:focus>img{
-    top: -20px;
+    top: -30px;
 }
 #k_situation>ul>li>a>h3{
-    padding-top:20px;
+    padding-top:30px;
     font-size: 18px;
     font-weight: bold; 
 }
@@ -328,7 +335,8 @@
 .k_bcon>div>div>a{
     display: block;
     min-height: 90px;
-    margin: 40px 0px;
+    padding: 20px 0px;
+    margin: 20px 0px;
 }
 .k_bcon>div>div>a>h3{
     font-weight: bold;
@@ -338,9 +346,19 @@
     padding-top: 20px;
     color: #767676;
 }
-.k_bcon>div>.k_more>a{
+.k_bcon>div>div>a, .k_bcon>div>div>a>h3, .k_bcon>div>div>a>p{
+    transition: 0.3s;
+}
+.k_bcon>div>div>a:hover, .k_bcon>div>div>a:focus{
+    background: #102e3b;
+}
+.k_bcon>div>div>a:hover>h3, .k_bcon>div>div>a:focus>h3, 
+.k_bcon>div>div>a:hover>p, .k_bcon>div>div>a:focus>p{
+    color: #fff;
+}
+.k_more{
     position: absolute;
-    top: -20px;
+    top: 20px;
     right: 30px;
     font-size: 16px;
     font-weight: bold;
