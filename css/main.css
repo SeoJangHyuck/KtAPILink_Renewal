@@ -129,7 +129,7 @@
     width: 50%;
 }
 .k_ps>h3{
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -149,11 +149,14 @@
     height: 100%;
     padding-top: 62px;
     box-sizing: border-box;
-    border-radius: 50%;
+    border-radius: 40%;
     text-align: center;
     font-weight: bold;
     font-size: 12px;
     transition: 0.4s;
+}
+.k_ps>ul>li>a>br{
+    display: none;
 }
 .k_ps>ul>li:nth-of-type(1)>a{
     background: #fff url(../img/main/ico_apis1_b.png) no-repeat center 15px;
@@ -205,9 +208,10 @@
     text-align: center;
 }
 .k_content_box>li>a{
+    position: relative;
     display: block;
-    min-height: 220px;
-    padding: 145px 0px 10px 0px;
+    min-height: 235px;
+    padding: 150px 20px 20px;
     box-sizing: border-box;
     background-size: contain;
     background-color: #fff;
@@ -241,6 +245,32 @@
     font-size: 18px;
     font-weight: bold;
 }
+.k_content_box>li>a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.k_content_box>li>a:hover:after, .k_content_box>li>a:focus:after{
+    opacity: 0.5;
+    border: 5px solid #e40925;
+}
+@media all and (max-width: 1435px){
+    .k_ps>ul>li>a>br{
+        display: block;
+    }
+    .k_content_box>li>a{
+        padding: 10vw 30px 20px;
+    }
+    .k_content_box>li>a>p>br{
+        display: none;
+    }
+}
 
 /* Content Situation */
 #k_situation{
@@ -257,6 +287,18 @@
     width: 25%;
     padding: 0px 40px;
     box-sizing: border-box;
+}
+#k_situation>ul>li>a{
+    display: block;
+    height: 100%;
+}
+#k_situation>ul>li>a>img{
+    position: relative;
+    top: 0px;
+    transition: 0.4s;
+}
+#k_situation>ul>li>a:hover>img, #k_situation>ul>li>a:focus>img{
+    top: -20px;
 }
 #k_situation>ul>li>a>h3{
     padding-top:20px;
@@ -279,8 +321,6 @@
     text-align: center;
     background: #fff;
 }
-.k_notice{
-}
 .k_bcon>div>h2{
     font-size: 28px;
     font-weight: bold;
@@ -300,8 +340,8 @@
 }
 .k_bcon>div>.k_more>a{
     position: absolute;
-    top: -10px;
-    right: 40px;
+    top: -20px;
+    right: 30px;
     font-size: 16px;
     font-weight: bold;
 }

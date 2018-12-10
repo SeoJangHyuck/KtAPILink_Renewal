@@ -9,7 +9,7 @@ Tablet버전: Width 768px~1199px
 
 Mobile버전: Width ~767px
 
-사용언어: HTML, CSS, JavaScript, J-Qurey
+사용언어: HTML, CSS, JavaScript(J-Qurey)
 
 이미지 작업: Adobe Photoshop, Adobe Illustrator
 
@@ -17,4 +17,4 @@ Mobile버전: Width ~767px
 
 Page Location: Main page <총 1 Page 제작>
 
-Page Domain: http://sjh9386061.dothome.co.kr/kt
+Page Domain: http://sjh9386062.dothome.co.kr

@@ -297,6 +297,7 @@ img{
     box-sizing: border-box;
 }
 #k_ft>ul{
+    margin-top: 10px;
     width: 51%;
     float: left;
 }
@@ -315,6 +316,7 @@ img{
     background-size: 5px 5px;
 }
 #k_ft>address{
+    margin-top: 10px;
     text-align: center;
     float: left;
 }
@@ -331,17 +333,3 @@ img{
     background: url(../img/common/kt_logo.png);
     background-size: 100px 77px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
