@@ -10,7 +10,6 @@
     color: #fff;
     background: url(../img/main/main_visual.jpg) no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 #k_mv>h2{
     display: inline-block;
@@ -63,7 +62,8 @@
     }
 }
 #k_mv>p{
-    font-size: 24px; 
+    font-size: 24px;
+    line-height: 30px;
     opacity: 0;
     animation: fontani4 1.2s linear 1.7s forwards;
 }
@@ -119,13 +119,12 @@
 }
 .k_ms>h2{
     width: 50%;
-    padding-top: 80px;
+    padding-top: 60px;
     font-size: 28px;
     font-weight: bold;
     text-align: center;
 }
 .k_ps{
-    padding-top: 20px;
     width: 50%;
 }
 .k_ps>h3{
@@ -147,7 +146,7 @@
 .k_ps>ul>li>a{
     display: block;
     height: 100%;
-    padding-top: 62px;
+    padding-top: 65px;
     box-sizing: border-box;
     border-radius: 40%;
     text-align: center;
@@ -210,7 +209,7 @@
 .k_content_box>li>a{
     position: relative;
     display: block;
-    min-height: 235px;
+    min-height: 245px;
     padding: 150px 20px 20px;
     box-sizing: border-box;
     background-size: contain;
@@ -244,6 +243,10 @@
 .k_content_box>li>a>h3{
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 5px;
+}
+.k_content_box>li>a>p{
+    line-height: 18px;
 }
 .k_content_box>li>a:after{
     content: "";
@@ -309,6 +312,7 @@
 }
 #k_situation>ul>li>a>h3{
     padding-top:30px;
+    margin-bottom: 5px;
     font-size: 18px;
     font-weight: bold; 
 }
@@ -322,7 +326,7 @@
     float: left;
     position: relative;
     width: 29.333%;
-    padding-top: 40px;
+    padding: 50px 0px 10px 0px;
     margin: 0px 2%;
     box-sizing: border-box;
     text-align: center;
@@ -334,16 +338,17 @@
 }
 .k_bcon>div>div>a{
     display: block;
-    min-height: 90px;
+    height: 97px;
     padding: 20px 0px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .k_bcon>div>div>a>h3{
+    line-height: 22px;
     font-weight: bold;
     font-size: 16px;
 }
 .k_bcon>div>div>a>p{
-    padding-top: 20px;
+    padding-top: 15px;
     color: #767676;
 }
 .k_bcon>div>div>a, .k_bcon>div>div>a>h3, .k_bcon>div>div>a>p{

@@ -1,4 +1,7 @@
 @charset "utf-8";
+.k_m_logo{
+    background-image: url(../img/common/p_logo_kt_api.png);
+}
 #k_mv>h2{
     left: 0px;
     font-size: 60px;

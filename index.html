@@ -7,6 +7,8 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/res_common.css" rel="stylesheet">
+    <link href="css/res_main.css" rel="stylesheet">
 
     <!--[if lt IE 10]>
     <link href="css/ie9.css" rel="stylesheet">
@@ -76,12 +78,68 @@
                 <a href="#">회원가입</a>
             </div>
         </div>
-        <ul class="k_clear">
+        <ul class="k_clear k_gnb_con">
             <li><a href="#">문의하기</a></li>
             <li><a href="#">API 찾기</a></li>
             <li><a href="#">개발자포럼</a></li>
             <li><a href="#">개발자지원</a></li>
         </ul>
+        <div id="m_k_gnb_box">
+            <button class="m_k_gnb_btn"><span>메뉴버튼</span></button>
+            <nav id="m_k_gnb_wrap">
+                <h2 class="k_blind">Global Menu Bar</h2>
+                <ul id="m_k_gnb">
+                    <li>
+                        <a href="#">소개</a>
+                        <ul class="m_k_gnb_2d">
+                            <li><a href="#">서비스 소개</a></li>
+                            <li><a href="#">추천 &plus; 활용 </a></li>
+                            <li><a href="#">고객 사례</a></li>
+                            <li><a href="#">아이디어 팝</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">서비스</a>
+                        <ul class="m_k_gnb_2d">
+                            <li><a href="#">5G as a Platform</a></li>
+                            <li><a href="#">GiGA Genie</a></li>
+                            <li><a href="#">Authentication</a></li>
+                            <li><a href="#">Geo Master</a></li>
+                            <li><a href="#">ucloud biz</a></li>
+                            <li><a href="#">IoTMakers</a></li>
+                            <li><a href="#">Application Service</a></li>
+                            <li><a href="#">GiGA energy</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기술지원</a>
+                        <ul class="m_k_gnb_2d">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">개발환경지원</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">개발자포럼</a></li>
+                            <li><a href="#">새소식</a></li>
+                            <li><a href="#">Q&amp;A</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Console</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="m_k_login">
+                <div>
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+            <ul class="k_clear m_k_gnb_con">
+                <li><a href="#">문의하기</a></li>
+                <li><a href="#">API 찾기</a></li>
+                <li><a href="#">개발자포럼</a></li>
+                <li><a href="#">개발자지원</a></li>
+            </ul>
+        </div>
     </aside>
 
     <!-- Main Visual -->
@@ -310,7 +368,7 @@
             모든 콘텐츠의 저작권은 KT와 해당사에 있음을 밝힙니다.
             <small>Design & Publishing by Seo Jang Hyuck.</small>
         </address>
-        <h2 class="k_g_logo"><a href="#">KT Logo</a></h2>
+        <a href="#"><img src="img/common/kt_logo.png" alt="kt logo"></a>
     </footer>
 </body>
 </html>
