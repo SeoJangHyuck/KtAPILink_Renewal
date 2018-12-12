@@ -271,11 +271,17 @@ img{
         position: fixed;
         top: 0px;
         bottom: none;
-        left: 200px;
+        left: 198px;
         height: 98px;
         padding: 11px 10px;
         box-sizing: border-box;
         background: #102e3b;
+    }
+    #k_sb>ul>li:nth-of-type(n){
+        margin-right: 18px;
+    }
+    #k_sb>ul>li:nth-of-type(4){
+        margin-right: 0px;
     }
 }
 

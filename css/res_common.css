@@ -1,6 +1,73 @@
 @charset "utf-8";
 #m_k_gnb_box{
+    display: block;
+}
+.m_k_gnb_btn{
     display: none;
+    z-index: 9999;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+    box-sizing: border-box;
+    border: none;
+    background: #fff;
+}
+.m_k_gnb_btn:before, .m_k_gnb_btn>span, .m_k_gnb_btn:after{
+    display: block;
+    width: 39px;
+    height: 8px;
+    background: url(../img/common/toggle_bullet.png) no-repeat center;
+    background-size: 70%;
+}
+.m_k_gnb_btn:before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 3px;
+    transition: 0.4s;
+}
+.m_k_gnb_btn>span{
+    text-indent: -9999px;
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    opacity: 0;
+    transition-delay: 0.4s;
+    transition-duration: 0.4s;
+}
+.m_k_gnb_btn:after{
+    content: "";
+    position: absolute;
+    bottom: 18px;
+    left: 3px;
+    opacity: 0;
+    transition-delay: 0.6s;
+    transition-duration: 0.4s;
+}
+#k_sb>button.m_k_gnb_act:before{
+    top: 8px;
+    left: 3px;
+}
+.m_k_gnb_btn>span.m_k_gnb_act{
+    top: 18px;
+    opacity: 1;
+}
+#k_sb>button.m_k_gnb_act:after{
+    bottom: 9px;
+    opacity: 1;
+}
+#m_k_gnb_box{
+    display: none;
+    z-index: 9998;
+    position: absolute;
+    top: 73px;
+    right: 0px;
+    width: 35vw;
+    box-sizing: border-box;
+    background: #102e3b;
 }
 
 /* Tablet 768px ~ 1259px */
@@ -10,6 +77,9 @@
     }
     #k_gnb_wrap, .k_login, .k_gnb_con{
         display: none;
+    }
+    .m_k_gnb_btn, #m_k_gnb_box{
+        display: block;
     }
     body{
         padding-left: 0px;

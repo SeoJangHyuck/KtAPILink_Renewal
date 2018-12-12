@@ -107,8 +107,10 @@
 }
 .k_gs>a>img{
     position: absolute;
-    top: 1px;
+    top: 2px;
     left: 15px;
+    width: 32px;
+    height: 32px;
     transition: 2s;
 }
 .k_gs>a:hover>img{
