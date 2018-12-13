@@ -43,12 +43,13 @@
         top: -50px;
     }
     to{
-        top: 0px;
+        top: 5px;
         opacity: 1;
     }
 }
 #k_mv>span>em{
     position: relative;
+    top: 5px;
     opacity: 0;
     animation: fontani3 1.2s linear 1.7s forwards;
 }

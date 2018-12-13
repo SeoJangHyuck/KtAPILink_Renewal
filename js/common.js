@@ -15,10 +15,17 @@ $(function(){
             $(this).addClass("m_k_gnb_act");
             $(this).children().addClass("m_k_gnb_act");
             $(this).children("span").css("transition-duration","0.4s");
+            $("#m_k_gnb_box").stop().slideDown(1000);
         }else{
             $(this).removeClass("m_k_gnb_act");
             $(this).children().removeClass("m_k_gnb_act");
             $(this).children("span").css("transition-duration","0s");
+            $("#m_k_gnb_box").stop().slideUp(1000);
         };
+    });
+    var mgcount = 0;
+    $("#m_k_gnb>li>p").click(function(){
+        $(this).next("ul").stop().slideToggle(400);
+        $(this).parent().siblings().children("ul").stop().slideUp(400);
     });
 }); //END

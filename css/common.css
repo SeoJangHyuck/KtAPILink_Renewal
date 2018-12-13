@@ -294,6 +294,7 @@ img{
 }
 #k_info>ul{
     display: inline-block;
+    vertical-align: middle;
     margin: 0px auto;
 }
 #k_info>ul>li{
