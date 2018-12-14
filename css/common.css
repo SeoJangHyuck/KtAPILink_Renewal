@@ -270,7 +270,7 @@ img{
         display: inline-block;
         position: fixed;
         top: 0px;
-        bottom: none;
+        bottom: initial;
         left: 198px;
         height: 98px;
         padding: 11px 10px;

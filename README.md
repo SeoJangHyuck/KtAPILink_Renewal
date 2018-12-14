@@ -1,7 +1,7 @@
 # KtAPILink_renewal
 'KT API Link Renewal' Portfolio Page
 
-반응형 웹페이지 제작 진행중
+반응형 웹페이지 제작
 
 PC버전: Width 1200px~
 

@@ -175,21 +175,21 @@
 /* Content Service */
     #k_mv{
         height: 36.5vw;
-        padding-top: 12vw;
-        margin-top: 73px;
+        padding-top: 11vw;
+        margin-top: 15vw;
     }
     @keyframes fontani1{
         from{
             left: 7.5vw;
-            font-size: 8vw;
+            font-size: 10vw;
         }
         to{
             left: 0px;
-            font-size: 5vw;
+            font-size: 6vw;
         }
     }
     #k_mv>span{
-        font-size: 5vw;
+        font-size: 6vw;
         margin-left: 1.4vw;
     }
     @keyframes fontani2{
@@ -214,43 +214,51 @@
         top: 0.4vw;
     }
     #k_mv>p{
-        font-size: 2.4vw;
-        line-height: 3vw;
+        font-size: 2.8vw;
+        line-height: 4vw;
     }
     .k_scon{
-        padding-top: 4.2vw; 
+        padding-top: 0px; 
     }
     .k_gs{
-        top: 4.2vw;
-        width: 20%;
-        height: 4.2vw;
+        position: fixed;
+        z-index: 9999;
+        top: 3.2vw;
+        left: initial;
+        right: calc(6vw + 40px);
+        width: 32vw;
+        height: 8vw;
     }
     .k_gs>a{
-        padding-left: 6.5vw;
-        line-height: 5vw;
-        font-size: 1.8vw;
+        padding-left: 8.5vw;
+        line-height: 8vw;
+        font-size: 3.2vw;
     }
     .k_gs>a>img{
-        top: calc((1vw - 4px)/2);
+        top: calc((2vw - 4px)/2);
         left: 1.5vw;
-        width: 4vw;
-        height: 4vw;
+        width: 6vw;
+        height: 6vw;
     }
     .k_ms>:nth-child(n){
         float: none;
+        width: 100%;
     }
     .k_ms>h2{
-        width: 100%;
         padding-top: 4.2vw;
         font-size: 4.8vw;
+        margin-bottom: 4.2vw;
     }
     .k_ps>h3{
+        padding-top: 4.2vw;
+        border-top: 2px solid #fff;
+        text-align: center;
         font-size: 3.6vw;
     }
     .k_ps>ul>li:nth-of-type(n){
         position: relative;
         width: calc(20% - 10px);
-        height: calc((50vw - 20px)/5 - 10px);
+        height: calc((100vw - 20px)/5 - 10px);
         margin: 0px 5px;
         border-radius: 50%;
         background-color: #fff;
@@ -282,77 +290,108 @@
         top: 0px;
         left: 0px;
         width: 100%;
-        padding-top: 9.7vw;
+        padding-top: calc((100vw - 70px)/5 + 2vw);
         border-radius: 50%;
-        font-size: 1.4vw;
+        font-size: 2.4vw;
         background-image: none;
         background-color: transparent;
     }
-    .k_ps>ul>li:nth-of-type(5)>a{
-        padding-top: 9vw;
-    }
-    .k_ps>ul>li:nth-of-type(4)>a>br{
-        display: none;
+    .k_ps>ul>li:nth-of-type(4)>a, .k_ps>ul>li:nth-of-type(5)>a{
+        padding-top: calc((100vw - 70px)/5 + 1vw);
     }
     .k_content_box{
-        margin-top: 50px;
+        margin-top: 12.6vw;
+    }
+    .k_content_box>li{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .k_content_box>li:nth-of-type(7), .k_content_box>li:nth-of-type(8){
+        margin-bottom: 0px;
     }
     .k_content_box>li>a{
-        padding: 13vw 15px 20px;
-        min-height: 26vw;
+        padding: 23vw 2vw 4vw;
+        min-height: 46vw;
     }
     .k_content_box>li>a>h3{
-        margin-bottom: 10px;
-        font-size: 1.8vw;
+        margin-bottom: 1.6vw;
+        font-size: 3.6vw
     }
     .k_content_box>li>a>p{
-        font-size: 1.4vw;
-        line-height: 2vw;
+        font-size: 2.8vw;
+        line-height: 4.2vw;
     }
 
     /* Content Situation */
+    #k_situation{
+        padding: 4.2vw 10px;
+    }
     #k_situation>h2{
-        font-size: 2.4vw;
-        margin-bottom: 30px;
+        font-size: 4.2vw;
+        margin-bottom: 4.2vw;
     }
     #k_situation>ul>li{
-        padding: 0px 3.2vw;
+        padding: 0px 1.2vw;
     }
     #k_situation>ul>li>a{
         background-position: center 13vw;
         background-size: 15vw 5vw;
     }
     #k_situation>ul>li>a>img{
-        width: 100%;
+        width: 75%;
     }
     #k_situation>ul>li>a>h3{
-        padding-top: 4vw;
-        font-size: 1.8vw;
+        padding-top: 2.1vw;
+        font-size: 2.8vw;
+    }
+    #k_situation>ul>li:nth-of-type(1)>a>h3>br{
+        display: block;
     }
     #k_situation>ul>li>a>p{
-        font-size: 1.4vw;
+        font-size: 2.4vw;
     }
 
     /* Content Board */
+    #k_board{
+        padding: 4.2vw 10px;
+    }
+    .k_bcon>div{
+        float: none;
+        width: 100%;
+        padding: 4.2vw 0px;
+        margin: 0px 0px 4.2vw 0px;
+    }
+    .k_bcon>div:last-child{
+        margin-bottom: 0px;
+    }
     .k_bcon>div>h2{
-        font-size: 2.4vw;
+        font-size: 3.6vw;
     }
     .k_bcon>div>div>a{
-        height: 9vw;
-        padding: 10px 0px;
-        margin: 10px 0px;
+        position: relative;
+        height: 100%;
+        padding: 2.1vw 3vw;
+        margin: 2.1vw 0px;
     }
     .k_bcon>div>div>a>h3{
-        line-height: 2vw;
-        font-size: 1.6vw;
+        text-align: left;
+        line-height: 4vw;
+        font-size: 3.2vw;
     }
     .k_bcon>div>div>a>p{
-        padding-top: 1.5vw;
-        font-size: 1.4vw;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 3vw;
+        padding-top: 0px;
+        font-size: 3.2vw;
+    }
+    .k_bcon>div>div>a:nth-of-type(n+2){
+        display: none;
     }
     .k_more{
-        top: 2vw;
+        top: 4.2vw;
         right: 3vw;
-        font-size: 1.6vw;
+        font-size: 3.2vw;
     }
 } /* Mobile End */
