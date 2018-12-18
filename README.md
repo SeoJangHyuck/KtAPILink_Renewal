@@ -1,7 +1,11 @@
 # KtAPILink_renewal
 'KT API Link Renewal' Portfolio Page
 
-반응형 웹페이지 제작
+반응형 웹페이지 제작(PC우선형)
+
+<구조설명> 
+기본적으로 좌측에 고정형 메뉴바가 있는 형태로써, 전체 컨텐츠가 View-port에 가득찬 구조.
+기존의 페이지보다 조금 더 밝은 분위기와 정돈된 디자인으로 리뉴얼.
 
 PC버전: Width 1200px~
 
