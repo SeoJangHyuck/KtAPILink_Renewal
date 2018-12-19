@@ -1,4 +1,4 @@
-# KtAPILink_renewal
+# KtAPILink_Renewal
 'KT API Link Renewal' Portfolio Page
 
 반응형 웹페이지 제작(PC우선형)
