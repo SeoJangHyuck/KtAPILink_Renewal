@@ -189,7 +189,7 @@
     #k_hd{
         padding: 20px 0px;
     }
-    .k_m_logo{
+    .k_m_logo>a{
         width: 120px;
         height: 31px;
         background-size: contain;
@@ -264,7 +264,7 @@
         padding: 4.2vw 0px;
         box-sizing: border-box;
     }
-    .k_m_logo{
+    .k_m_logo>a{
         width: 24vw;
         height: 6vw;
         margin: 0px 0px 0px 20px;
