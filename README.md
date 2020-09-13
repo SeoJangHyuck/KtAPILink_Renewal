@@ -23,4 +23,4 @@ Cross Browsing: IE8+, Chrome, FireFox, Opera, Safari
 
 Page Location: Main page <총 1 Page 제작>
 
-Page Domain: www.revefront.com/ktapi
+Page Domain: http://sjh9386061.dothome.co.kr/ktapi/
